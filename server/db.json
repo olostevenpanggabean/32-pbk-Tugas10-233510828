@@ -1,9 +1,29 @@
 {
   "profil": [
-    {}
+    {
+      "id": 1,
+      "fakultas": "Teknik",
+      "jurusan": "Teknik Informatika",
+      "semester": 4
+    },
+    {
+      "id": 2,
+      "fakultas": "Ekonomi",
+      "jurusan": "Akuntansi",
+      "semester": 3
+    }
   ],
   "rencana": [
-    {}
+    {
+      "id": 1,
+      "jam": "10.00 - 12.00",
+      "profilId": 1
+    },
+    {
+      "id": 2,
+      "jam": "19.00 - 21.00",
+      "profilId": 3
+    }
   ],
   "modul_dasar": [
     {
@@ -17,7 +37,7 @@
           "durasi": "8 jam",
           "sumber": "Modul 1.1",
           "video_link": "https://example.com",
-          "progress": 80
+          "progress": "94"
         }
       ]
     },
@@ -169,7 +189,7 @@
           "durasi": "10 jam",
           "sumber": "Modul 2.1",
           "video_link": "https://example.com/python",
-          "progress": 85
+          "progress": "46"
         }
       ]
     },
